@@ -1,4 +1,5 @@
 package com.cookandroid.project_99;
+//장바구니 목록 등, 장바구니에 담긴 것이 없으면 버튼을 눌렀을 때 "담긴 것이 없습니다"라고 토스트버튼 뜨게 하기.
 
 import android.content.Intent;
 import android.os.Bundle;
