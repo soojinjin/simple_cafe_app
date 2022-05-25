@@ -107,12 +107,19 @@ public class Buy extends AppCompatActivity {
                 @Override
                 public void onItemClick(AdapterView parent, View v, int position, long id) {
 
-
                     ListViewItem item = (ListViewItem) parent.getItemAtPosition(position) ;
-
                     String titleStr = item.getTitle() ;
                     String descStr = item.getDesc() ;
                     Drawable iconDrawable = item.getIcon() ;
+
+                    Intent intent = new Intent(Buy.this, HotandIce.class);
+                    intent.putExtra("title2", titleStr);
+                    intent.putExtra("desc2", descStr);
+                    //intent.putExtra("icon", iconDrawable);
+
+                    Intent intent2 = new Intent(getApplicationContext(), HotandIce.class);
+                    startActivity(intent2);
+
 
                 }
             });
@@ -126,10 +133,8 @@ public class Buy extends AppCompatActivity {
         });
 
     }
-    public void ClickHandler(View view)
-    {
-        Toast.makeText(this.getApplicationContext(),"장바구니에 담아졌습니다.", Toast.LENGTH_SHORT).show();
-    }
+
+
 
 }
 

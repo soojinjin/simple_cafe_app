@@ -14,12 +14,18 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button btnFinish = (Button) findViewById(R.id.button); // 주문하기 버튼
+        Button btnFinish = (Button) findViewById(R.id.button1); // 주문하기 버튼
         btnFinish.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), Buy.class);
                 startActivity(intent);
-                // intent.putExtra("VoteCount", voteCount);
+            }
+        });
+        Button buylist = (Button) findViewById(R.id.button3); // 주문하기 버튼
+        buylist.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), BuyList.class);
+                startActivity(intent);
             }
         });
 

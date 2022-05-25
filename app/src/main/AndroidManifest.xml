@@ -18,9 +18,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Puzzlegame" android:label="Puzzlegame 액티비티" />
-        <activity android:name=".Buy" android:label="Buy 액티비티" />
-        <activity android:name=".Basket" android:label="Basket 액티비티" />
+        <activity android:name=".Puzzlegame" android:label="미니게임 즐기기" />
+        <activity android:name=".Buy" android:label="메뉴 목록" />
+        <activity android:name=".Basket" android:label="장바구니 목록" />
+        <activity android:name=".BuyList" android:label="주문내역" />
+        <activity android:name=".HotandIce" android:label="." />
 
     </application>
 
