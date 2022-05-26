@@ -21,6 +21,15 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        Button goGame = (Button) findViewById(R.id.button2); // 게임하러가기 버튼
+        goGame.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), Puzzlegame.class);
+                startActivity(intent);
+            }
+        });
+
         Button buylist = (Button) findViewById(R.id.button3); // 주문하기 버튼
         buylist.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {

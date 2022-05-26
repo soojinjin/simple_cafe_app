@@ -1,94 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<com.cookandroid.project_99.GestureDetectGridView
+   xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
+    android:id="@+id/grid"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    tools:context=".Puzzlegame" />
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="2"
-        android:orientation="vertical">
-        <EditText
-            android:id="@+id/editTextTime"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="time" />
-    </LinearLayout>
-
-    <AbsoluteLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="3"
-        android:layout_gravity="center">
-        <Button
-            android:id="@+id/btn01"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="1" />
-        <Button
-            android:id="@+id/btn02"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="2" />
-        <Button
-            android:id="@+id/btn03"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="3" />
-        <Button
-            android:id="@+id/btn04"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="4" />
-        <Button
-            android:id="@+id/btn05"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="5" />
-        <Button
-            android:id="@+id/btn06"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="6" />
-        <Button
-            android:id="@+id/btn07"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="7" />
-        <Button
-            android:id="@+id/btn08"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="8" />
-        <Button
-            android:id="@+id/blank"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:text="9" />
-    </AbsoluteLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:orientation="horizontal">
-        <Button
-            android:id="@+id/btnRetry"
-            android:layout_width="0dp"
-            android:layout_weight="1"
-            android:layout_height="match_parent"
-            android:layout_margin="30dp"
-            android:text="다시하기" />
-
-        <Button
-            android:id="@+id/btnAnother"
-            android:layout_width="0dp"
-            android:layout_weight="1"
-            android:layout_height="match_parent"
-            android:layout_margin="30dp"
-            android:text="다른 사진으로 하기" />
-    </LinearLayout>
-</LinearLayout>
