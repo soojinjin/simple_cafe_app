@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         Button goGame = (Button) findViewById(R.id.button2); // 게임하러가기 버튼
         goGame.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), Puzzlegame.class);
+                Intent intent = new Intent(getApplicationContext(), PuzzleGameMain.class);
                 startActivity(intent);
             }
         });
