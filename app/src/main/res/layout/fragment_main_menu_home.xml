@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pinkbackground"
+    tools:context=".MainMenuHomeFragment">
+
+
+    <ViewFlipper
+        android:id="@+id/imageSlide"
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:layout_marginTop="70dp"
+
+        android:background="#FFFFFF"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <GridView
+        android:id="@+id/gridView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="60dp"
+        android:background="#FFFFFF"
+        android:horizontalSpacing="8dp"
+        android:numColumns="3"
+        android:verticalSpacing="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageSlide"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/kotrahope"
+        android:text="I LOVE COFFEE"
+        android:textSize="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textColor="#DB7093"/>
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="59dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="350dp"
+        android:src="@drawable/cute"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="61dp"
+        android:layout_height="59dp"
+        android:layout_marginEnd="12dp"
+        android:src="@drawable/cute3"
+        app:layout_constraintBottom_toTopOf="@+id/imageSlide"
+        app:layout_constraintEnd_toStartOf="@+id/textView8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.49" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:fontFamily="@font/kotrahope"
+        android:text="오늘의 메뉴 추천"
+        android:textColor="#BC8F8F"
+        android:textSize="50dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageSlide" />
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="185dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginEnd="100dp"
+        android:src="@drawable/good2"
+        app:layout_constraintBottom_toTopOf="@+id/gridView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/gridView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

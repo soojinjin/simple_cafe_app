@@ -4,14 +4,45 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFFFFF"
     tools:context=".Puzzlegame">
-    <!--메인자바, 게임자바, 메인화면, 게임화면, 버튼스타일-->
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="#BC8F8F">
+
+        <TextView
+            android:text="클릭 수: 0"
+            android:gravity="center"
+            android:id="@+id/text_view_steps"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/kotrahope"
+            android:textColor="#DB7093"
+            android:textSize="25sp"/>
+
+        <TextView
+            android:text="시간: 00:00:00"
+            android:gravity="center"
+            android:id="@+id/text_view_time"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/kotrahope"
+            android:textColor="#DB7093"
+            android:textSize="25sp"/>
+    </LinearLayout>
 
     <RelativeLayout
         android:id="@+id/group"
         android:layout_gravity="center"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" >
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="50dp">
 
         <Button
             android:layout_alignParentTop="true"
@@ -82,20 +113,20 @@
             android:layout_alignParentStart="true"
             android:id="@+id/button9"
             style="@style/ButtonStyle"
-            android:tag="21"
+            android:tag="20"
             android:text="9"/>
 
         <Button
             android:layout_below="@id/button5"
-            android:layout_toEndOf="@id/button5"
+            android:layout_toEndOf="@id/button1"
             android:id="@+id/button10"
             style="@style/ButtonStyle"
-            android:tag="22"
+            android:tag="21"
             android:text="10"/>
 
         <Button
             android:layout_below="@id/button5"
-            android:layout_toEndOf="@id/button6"
+            android:layout_toEndOf="@id/button2"
             android:id="@+id/button11"
             style="@style/ButtonStyle"
             android:tag="22"
@@ -103,10 +134,10 @@
 
         <Button
             android:layout_below="@id/button5"
-            android:layout_toEndOf="@id/button7"
+            android:layout_toEndOf="@id/button3"
             android:id="@+id/button12"
             style="@style/ButtonStyle"
-            android:tag="30"
+            android:tag="23"
             android:text="12"/>
 
         <Button
@@ -114,26 +145,56 @@
             android:layout_alignParentStart="true"
             android:id="@+id/button13"
             style="@style/ButtonStyle"
-            android:tag="31"
+            android:tag="30"
             android:text="13"/>
 
         <Button
             android:layout_below="@id/button9"
-            android:layout_toEndOf="@id/button9"
+            android:layout_toEndOf="@id/button1"
             android:id="@+id/button14"
             style="@style/ButtonStyle"
-            android:tag="32"
+            android:tag="31"
             android:text="14"/>
 
         <Button
             android:layout_below="@id/button9"
-            android:layout_toEndOf="@id/button10"
+            android:layout_toEndOf="@id/button2"
             android:id="@+id/button15"
             style="@style/ButtonStyle"
-            android:tag="33"
+            android:tag="32"
             android:text="15"/>
+        <Button
+            android:layout_below="@id/button9"
+            android:layout_toEndOf="@id/button3"
+            android:id="@+id/button16"
+            style="@style/ButtonStyle"
+            android:tag="33"
+            android:background="@color/colorFreeButton"
+            android:text=""/>
 
     </RelativeLayout>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_shuffle"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="버튼 섞기"
+            android:fontFamily="@font/kotrahope"/>
+
+        <Button
+            android:text="중지하기"
+            android:id="@+id/button_stop"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/kotrahope"/>
+    </LinearLayout>
 
 </LinearLayout>

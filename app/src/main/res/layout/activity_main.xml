@@ -4,57 +4,29 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:orientation="vertical">
+   tools:context=".MainActivity">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
+   <FrameLayout
+       android:id="@+id/menu_frame_layout"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:background="#F8F6F6"
+       android:backgroundTint="@color/colorAccent"
+       app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="2"
-        android:orientation="vertical">
-    </LinearLayout>
+   <com.google.android.material.bottomnavigation.BottomNavigationView
+       android:id="@+id/menu_bottom_navigation"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_gravity="bottom"
+       android:background="#9AA0A3"
+       app:itemIconTint="@drawable/menu_item_color"
+       app:itemTextColor="@drawable/menu_item_color"
+       app:labelVisibilityMode="labeled"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:menu="@menu/bottom_menu" />
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="2"
-        android:orientation="vertical">
-    </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:orientation="horizontal">
-
-        <Button
-            android:id="@+id/button1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="주문하러가기" />
-
-        <Button
-            android:id="@+id/button2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Button" />
-
-        <Button
-            android:id="@+id/button3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="주문내역" />
-    </LinearLayout>
-
-    </LinearLayout>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

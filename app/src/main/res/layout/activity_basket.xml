@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/wallpaper_coffee_shop"
+    tools:context=".Basket">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#aaaa">
+
+    <ImageView
+        android:id="@+id/ImageView"
+        android:layout_width="200dp"
+        android:background="#aaaa"
+        android:layout_height="200dp"
+        android:layout_gravity="center" />
+
+    <LinearLayout
+        android:layout_width="346dp"
+        android:layout_height="78dp"
+        android:background="#aaaa"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/text_View1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="50dp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:hint="bla-bla" />
+
+
+        <TextView
+            android:id="@+id/text_View3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="50dp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:hint="0" />
+
+        <TextView
+            android:id="@+id/text_View4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:textColor="@color/black"
+            android:hint="0" />
+
+        <TextView
+            android:id="@+id/text_View2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:hint="won" />
+    </LinearLayout>
+
+    <RadioGroup
+        android:id="@+id/rGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:background="#aaaa"
+        android:visibility="visible"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radio1"
+            android:layout_width="72dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="150dp"
+            android:checked="true"
+            android:textColor="@color/black"
+            android:text="ice" />
+
+        <RadioButton
+            android:id="@+id/radio2"
+            android:layout_width="79dp"
+            android:layout_height="match_parent"
+            android:checked="false"
+            android:textColor="@color/black"
+            android:text="hot" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:background="#aaaa"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:text="cancel"
+            android:background="@drawable/button2"/>
+        <Button
+            android:id="@+id/minus"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/button2"
+            android:text="---" />
+        <Button
+            android:id="@+id/plus"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/button3"
+            android:text="+" />
+
+        <Button
+            android:id="@+id/buy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_View1"
+            android:layout_marginLeft="20dp"
+            android:text="buy"
+            android:background="@drawable/button3"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="304dp"
+        android:layout_marginTop="20dp"
+        android:gravity="bottom"
+        android:background="#aaaa"
+        android:orientation="vertical">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:hint="To delete menu click menu" />
+
+        <ListView
+            android:id="@+id/listView1"
+            android:layout_width="wrap_content"
+            android:layout_height="304dp"
+            android:layout_marginTop="3dp"
+            android:layout_weight="5"
+            android:gravity="bottom" />
+
+    </LinearLayout>
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -16,17 +16,103 @@
         <entry key="..\:/Users/PC/AndroidStudioProjects/Project_99/app/src/main/res/layout/popup.xml" value="0.264" />
         <entry key="..\:/Users/PC/AndroidStudioProjects/Project_99/app/src/main/res/layout/resource.xml" value="0.1" />
         <entry key="..\:/Users/PC/AndroidStudioProjects/Project_99/app/src/main/res/layout/review.xml" value="0.26510416666666664" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/cafe_final/app/src/main/res/layout/fragment_main_menu_home.xml" value="0.22484134179510426" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/cafe_test/app/src/main/res/drawable/menu_item_color.xml" value="0.2555" />
         <entry key="..\:/Users/imsoojin/AndroidStudioProjects/cafe2/app/src/main/res/drawable/button.xml" value="0.2435" />
-        <entry key="..\:/Users/imsoojin/AndroidStudioProjects/cafe2/app/src/main/res/layout/activity_intro.xml" value="0.264" />
-        <entry key="..\:/Users/imsoojin/AndroidStudioProjects/cafe2/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/imsoojin/AndroidStudioProjects/cafe2/app/src/main/res/drawable/custom_bottom_dialog.xml" value="0.146" />
+        <entry key="..\:/Users/imsoojin/AndroidStudioProjects/cafe2/app/src/main/res/drawable/custom_edittxt.xml" value="0.259" />
+        <entry key="..\:/Users/imsoojin/AndroidStudioProjects/cafe2/app/src/main/res/drawable/edittxt_cursor.xml" value="0.1685" />
+        <entry key="..\:/Users/imsoojin/AndroidStudioProjects/cafe2/app/src/main/res/drawable/menu_item_color.xml" value="0.1165" />
+        <entry key="..\:/Users/imsoojin/AndroidStudioProjects/cafe2/app/src/main/res/drawable/slide_in_anim.xml" value="0.146" />
+        <entry key="..\:/Users/imsoojin/AndroidStudioProjects/cafe2/app/src/main/res/drawable/slide_out_anim.xml" value="0.146" />
+        <entry key="..\:/Users/imsoojin/AndroidStudioProjects/cafe2/app/src/main/res/layout/activity_cart_fragment.xml" value="0.17497733454215775" />
+        <entry key="..\:/Users/imsoojin/AndroidStudioProjects/cafe2/app/src/main/res/layout/activity_intro.xml" value="0.1" />
+        <entry key="..\:/Users/imsoojin/AndroidStudioProjects/cafe2/app/src/main/res/layout/activity_login.xml" value="0.2578397212543554" />
+        <entry key="..\:/Users/imsoojin/AndroidStudioProjects/cafe2/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/imsoojin/AndroidStudioProjects/cafe2/app/src/main/res/layout/activity_register.xml" value="0.264" />
+        <entry key="..\:/Users/imsoojin/AndroidStudioProjects/cafe2/app/src/main/res/layout/array.xml" value="0.1" />
+        <entry key="..\:/Users/imsoojin/AndroidStudioProjects/cafe2/app/src/main/res/layout/buy.xml" value="0.2" />
+        <entry key="..\:/Users/imsoojin/AndroidStudioProjects/cafe2/app/src/main/res/layout/buy_layout.xml" value="0.1" />
+        <entry key="..\:/Users/imsoojin/AndroidStudioProjects/cafe2/app/src/main/res/layout/buylist.xml" value="0.17497733454215775" />
+        <entry key="..\:/Users/imsoojin/AndroidStudioProjects/cafe2/app/src/main/res/layout/custom_bottom_dialog.xml" value="0.17497733454215775" />
+        <entry key="..\:/Users/imsoojin/AndroidStudioProjects/cafe2/app/src/main/res/layout/custom_caritem_card.xml" value="0.17497733454215775" />
+        <entry key="..\:/Users/imsoojin/AndroidStudioProjects/cafe2/app/src/main/res/layout/custom_cartitem_card.xml" value="0.17497733454215775" />
+        <entry key="..\:/Users/imsoojin/AndroidStudioProjects/cafe2/app/src/main/res/layout/custom_item_card.xml" value="0.35054347826086957" />
+        <entry key="..\:/Users/imsoojin/AndroidStudioProjects/cafe2/app/src/main/res/layout/custom_select_type_card.xml" value="0.2" />
         <entry key="..\:/Users/imsoojin/AndroidStudioProjects/cafe2/app/src/main/res/layout/font.xml" value="0.22327898550724637" />
+        <entry key="..\:/Users/imsoojin/AndroidStudioProjects/cafe2/app/src/main/res/layout/fragment_main_menu_chart.xml" value="0.1" />
+        <entry key="..\:/Users/imsoojin/AndroidStudioProjects/cafe2/app/src/main/res/layout/fragment_main_menu_game.xml" value="0.1" />
+        <entry key="..\:/Users/imsoojin/AndroidStudioProjects/cafe2/app/src/main/res/layout/fragment_main_menu_home.xml" value="0.1" />
+        <entry key="..\:/Users/imsoojin/AndroidStudioProjects/cafe2/app/src/main/res/layout/fragment_main_menu_profile.xml" value="0.4" />
+        <entry key="..\:/Users/imsoojin/AndroidStudioProjects/cafe2/app/src/main/res/layout/fragment_main_menu_shop.xml" value="0.2" />
+        <entry key="..\:/Users/imsoojin/AndroidStudioProjects/cafe2/app/src/main/res/layout/fragment_main_menu_shopping.xml" value="0.264" />
+        <entry key="..\:/Users/imsoojin/AndroidStudioProjects/cafe2/app/src/main/res/layout/game.xml" value="0.20820863616930313" />
+        <entry key="..\:/Users/imsoojin/AndroidStudioProjects/cafe2/app/src/main/res/layout/game_main.xml" value="0.10175511909736733" />
+        <entry key="..\:/Users/imsoojin/AndroidStudioProjects/cafe2/app/src/main/res/menu/bottom_menu.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/imsoojin/AndroidStudioProjects/cafe2/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.146" />
+        <entry key="..\:/Users/imsoojin/AndroidStudioProjects/cafe7/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1615" />
+        <entry key="..\:/Users/imsoojin/AndroidStudioProjects/cafe7/app/src/main/res/layout/activity_custom_dialog.xml" value="0.1" />
+        <entry key="..\:/Users/imsoojin/AndroidStudioProjects/cafe7/app/src/main/res/layout/activity_login.xml" value="0.20820863616930313" />
+        <entry key="..\:/Users/imsoojin/AndroidStudioProjects/cafe7/app/src/main/res/layout/basket.xml" value="0.20820863616930313" />
+        <entry key="..\:/Users/imsoojin/AndroidStudioProjects/cafe7/app/src/main/res/layout/buy.xml" value="0.20820863616930313" />
+        <entry key="..\:/Users/imsoojin/AndroidStudioProjects/cafe7/app/src/main/res/layout/custom_item_card.xml" value="0.4" />
+        <entry key="..\:/Users/imsoojin/AndroidStudioProjects/cafe7/app/src/main/res/layout/custom_select_type_card.xml" value="0.20820863616930313" />
+        <entry key="..\:/Users/imsoojin/AndroidStudioProjects/cafe7/app/src/main/res/layout/fragment_detail.xml" value="0.20820863616930313" />
+        <entry key="..\:/Users/imsoojin/AndroidStudioProjects/cafe7/app/src/main/res/layout/fragment_main_menu_game.xml" value="0.20820863616930313" />
+        <entry key="..\:/Users/imsoojin/AndroidStudioProjects/cafe7/app/src/main/res/layout/fragment_main_menu_home.xml" value="0.264" />
+        <entry key="..\:/Users/imsoojin/AndroidStudioProjects/cafe7/app/src/main/res/layout/fragment_main_menu_profile.xml" value="0.20820863616930313" />
+        <entry key="..\:/Users/imsoojin/AndroidStudioProjects/cafe7/app/src/main/res/layout/fragment_main_menu_shop.xml" value="0.16799999999999998" />
+        <entry key="..\:/Users/imsoojin/AndroidStudioProjects/cafe7/app/src/main/res/layout/review.xml" value="0.20820863616930313" />
+        <entry key="..\:/Users/imsoojin/AndroidStudioProjects/cafe_test/app/src/main/res/layout/activity_custom_dialog.xml" value="0.13296280461735785" />
+        <entry key="..\:/Users/imsoojin/AndroidStudioProjects/cafe_test/app/src/main/res/layout/fragment_main_menu_home.xml" value="0.13296280461735785" />
+        <entry key="..\:/Users/imsoojin/AndroidStudioProjects/cafe_test/app/src/main/res/layout/fragment_main_menu_profile.xml" value="0.13296280461735785" />
+        <entry key="..\:/Users/imsoojin/AndroidStudioProjects/cafe_test/app/src/main/res/layout/fragment_main_menu_shop.xml" value="0.1613780598368087" />
         <entry key="..\:/Users/user/AndroidStudioProjects/AndroidStudio3/app/src/main/res/layout/activity_main.xml" value="0.358695652173913" />
         <entry key="..\:/Users/user/AndroidStudioProjects/AndroidStudio3/app/src/main/res/layout/game.xml" value="0.358695652173913" />
         <entry key="..\:/Users/user/AndroidStudioProjects/AndroidStudio3/app/src/main/res/layout/game_main.xml" value="0.358695652173913" />
+        <entry key="..\:/cafe3/cafe2/app/src/main/res/layout/activity_cart_fragment.xml" value="0.21975203078238564" />
+        <entry key="..\:/cafe3/cafe2/app/src/main/res/layout/activity_custom_dialog.xml" value="0.30055579307396324" />
+        <entry key="..\:/cafe3/cafe2/app/src/main/res/layout/activity_intro.xml" value="0.21975203078238564" />
+        <entry key="..\:/cafe3/cafe2/app/src/main/res/layout/basket.xml" value="0.21975203078238564" />
+        <entry key="..\:/cafe3/cafe2/app/src/main/res/layout/buy.xml" value="0.21975203078238564" />
+        <entry key="..\:/cafe3/cafe2/app/src/main/res/layout/buy_layout.xml" value="0.21975203078238564" />
+        <entry key="..\:/cafe3/cafe2/app/src/main/res/layout/buylist_layout.xml" value="0.21975203078238564" />
+        <entry key="..\:/cafe3/cafe2/app/src/main/res/layout/fragment_main_menu_game.xml" value="0.21975203078238564" />
+        <entry key="..\:/cafe3/cafe2/app/src/main/res/layout/game.xml" value="0.21975203078238564" />
+        <entry key="..\:/cafe3/cafe2/app/src/main/res/layout/game_main.xml" value="0.21975203078238564" />
+        <entry key="..\:/cafe3/cafe2/app/src/main/res/layout/popup.xml" value="0.30055579307396324" />
+        <entry key="..\:/cafe_final_21/cafe_final 3/app/src/main/res/layout/fragment_main_menu_game.xml" value="0.30055579307396324" />
+        <entry key="..\:/cafe_final_21/cafe_final 3/app/src/main/res/layout/game.xml" value="0.30055579307396324" />
+        <entry key="app/src/main/res/drawable/button.xml" value="0.174" />
+        <entry key="app/src/main/res/drawable/button2.xml" value="0.174" />
+        <entry key="app/src/main/res/drawable/button3.xml" value="0.174" />
+        <entry key="app/src/main/res/layout/activity_basket.xml" value="0.19628286491387126" />
+        <entry key="app/src/main/res/layout/activity_cart_fragment.xml" value="0.19628286491387126" />
+        <entry key="app/src/main/res/layout/activity_custom_dialog.xml" value="0.19628286491387126" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.19628286491387126" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.19628286491387126" />
+        <entry key="app/src/main/res/layout/activity_menu.xml" value="0.19628286491387126" />
+        <entry key="app/src/main/res/layout/activity_register.xml" value="0.19628286491387126" />
+        <entry key="app/src/main/res/layout/basket.xml" value="0.19628286491387126" />
+        <entry key="app/src/main/res/layout/buy.xml" value="0.19628286491387126" />
+        <entry key="app/src/main/res/layout/buy_layout.xml" value="0.19628286491387126" />
+        <entry key="app/src/main/res/layout/buylist.xml" value="0.19628286491387126" />
+        <entry key="app/src/main/res/layout/buylist_layout.xml" value="0.19628286491387126" />
+        <entry key="app/src/main/res/layout/custom_cartitem_card.xml" value="0.19628286491387126" />
+        <entry key="app/src/main/res/layout/custom_item_card.xml" value="0.19628286491387126" />
+        <entry key="app/src/main/res/layout/custom_select_type_card.xml" value="0.19628286491387126" />
+        <entry key="app/src/main/res/layout/fragment_blank.xml" value="0.19628286491387126" />
+        <entry key="app/src/main/res/layout/fragment_blank2.xml" value="0.19628286491387126" />
+        <entry key="app/src/main/res/layout/fragment_blank3.xml" value="0.19628286491387126" />
+        <entry key="app/src/main/res/layout/fragment_main_menu_game.xml" value="0.19628286491387126" />
+        <entry key="app/src/main/res/layout/fragment_main_menu_home.xml" value="0.19628286491387126" />
+        <entry key="app/src/main/res/layout/fragment_main_menu_profile.xml" value="0.19628286491387126" />
+        <entry key="app/src/main/res/layout/fragment_main_menu_shop.xml" value="0.19628286491387126" />
+        <entry key="app/src/main/res/layout/review.xml" value="0.19628286491387126" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

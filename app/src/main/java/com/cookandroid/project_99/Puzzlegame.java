@@ -4,12 +4,15 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.RelativeLayout;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.ContextCompat;
 
 import java.util.Random;
+import java.util.Timer;
+import java.util.TimerTask;
 
 public class Puzzlegame extends AppCompatActivity {
 
@@ -18,6 +21,14 @@ public class Puzzlegame extends AppCompatActivity {
     private RelativeLayout group;
     private Button[][] buttons;
     private int[] tiles;
+    private TextView textViewSteps;
+    private int stepCount = 0;
+    private TextView textViewTime;
+    private Timer timer;
+    private int timeCount = 0;
+    private Button buttonShuffle;
+    private Button buttonStop;
+    private boolean isTimeRunning;
 
 
     @Override
@@ -75,13 +86,67 @@ public class Puzzlegame extends AppCompatActivity {
         }
     }
 
+    private void loadTimer() {
+        isTimeRunning = true;
+        timer = new Timer();
+        timer.schedule(new TimerTask() {
+            @Override
+            public void run() {
+                timeCount++;
+                setTime(timeCount);
+            }
+        }, 1000, 1000);
+    }
+
+    private void setTime(int timeCount) {
+        int second = timeCount % 60;
+        int hour = timeCount / 3600;
+        int minute = (timeCount - hour * 3600) / 60;
+
+        textViewTime.setText(String.format("시간: %02d:%02d:%02d", hour, minute, second));
+    }
+
     private void loadViews() {
         group = findViewById(R.id.group);
+        textViewSteps = findViewById(R.id.text_view_steps);
+        textViewTime = findViewById(R.id.text_view_time);
+        buttonShuffle = findViewById(R.id.button_shuffle);
+        buttonStop = findViewById(R.id.button_stop);
+
+        loadTimer();
         buttons = new Button[4][4];
 
         for (int i = 0; i < group.getChildCount(); i++) {
             buttons[i / 4][i % 4] = (Button) group.getChildAt(i);
         }
+
+        buttonShuffle.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                generateNumbers();
+                loadDataToViews();
+            }
+        });
+
+        buttonStop.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if (isTimeRunning) {
+                    timer.cancel();
+                    buttonStop.setText("다시 시작하기");
+                    isTimeRunning = false;
+                    for (int i = 0; i < group.getChildCount(); i++) {
+                        buttons[i / 4][i % 4].setClickable(false);
+                    }
+                } else {
+                    loadTimer();
+                    buttonStop.setText("중지하기");
+                    for (int i = 0; i < group.getChildCount(); i++) {
+                        buttons[i / 4][i % 4].setClickable(true);
+                    }
+                }
+            }
+        });
     }
 
     public void buttonClick(View view) {
@@ -96,6 +161,8 @@ public class Puzzlegame extends AppCompatActivity {
             button.setBackgroundColor(ContextCompat.getColor(this, R.color.colorFreeButton));
             emptyX = x;
             emptyY = y;
+            stepCount++;
+            textViewSteps.setText("클릭 수: " + stepCount);
             checkWin();
         }
     }
@@ -112,12 +179,14 @@ public class Puzzlegame extends AppCompatActivity {
                 }
             }
             if (isWin) {
-                Toast.makeText(this, "Win!!!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Win!!!\nSteps: " + stepCount, Toast.LENGTH_SHORT).show();
                 for (int i = 0; i < group.getChildCount(); i++) {
                     buttons[i / 4][i % 4].setClickable(false);
                 }
+                timer.cancel();
+                buttonShuffle.setClickable(false);
+                buttonStop.setClickable(false);
             }
         }
-
     }
 }
