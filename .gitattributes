@@ -1,0 +1,3 @@
+*.sql linguist-detectable=true
+*.java linguist-detectable=true
+*.androidstudio linguist-detectable=true
